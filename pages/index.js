@@ -9,10 +9,7 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
-import { HamburgerIcon } from "@chakra-ui/icons";
 
-import { useState } from "react";
-import Navbar from "../components/Navbar";
 import Link from "next/link";
 
 export default function Home() {
@@ -38,7 +35,7 @@ export default function Home() {
 
   return (
     <>
-      <Navbar />
+      
       <Box maxW={["23rem", "36rem", "70rem"]} m="auto" textAlign="center">
         <Text as="b" fontSize={["2rem", "3rem", "5rem"]} >
           Creating Action & Admiration Through Brand Design
