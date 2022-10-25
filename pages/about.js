@@ -1,42 +1,12 @@
 import { Box, Container, Flex, Image, Text, VStack } from "@chakra-ui/react";
+import Header from "../components/About.js/Header";
 
 const About = () => {
   return (
-    <>
-      <VStack>
-        <Flex
-          zIndex={-1}
-          top={40}
-          position="relative"
-          w="100%"
-          alignItems="center"
-          justifyContent="center"
-        >
-          <Box>
-            <Image
-              display="inline-block"
-              w="100%"
-              maxH="650px"
-              objectFit="cover"
-              px={5}
-              src="/about.jpeg"
-              alt="contact"
-            />
-          </Box>
-          <Text
-            fontSize={["2rem", "3rem", "6rem"]}
-            color="white"
-            p="30px"
-            position="absolute"
-            display="block"
-            // top={["50%", "50%", "45%"]}
-          >
-            About
-          </Text>
-        </Flex>
-      </VStack>
+    <VStack display="block">
+      <Header />
 
-      <Container maxW="70rem">
+      <Container pt={20} maxW="80rem">
         <Text textColor="#8A8A8A" fontSize="20px">
           Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
           tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
@@ -61,7 +31,7 @@ const About = () => {
           fringilla vel, aliquet nec, vulputate eget, arcu.
         </Text>
       </Container>
-    </>
+    </VStack>
   );
 };
 
