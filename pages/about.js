@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Image, Text, VStack } from "@chakra-ui/react";
+import { Container, Text, VStack } from "@chakra-ui/react";
 import Header from "../components/About.js/Header";
 
 const About = () => {

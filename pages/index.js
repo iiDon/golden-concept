@@ -1,4 +1,4 @@
-import { Box, useDisclosure, Image, Text, VStack } from "@chakra-ui/react";
+import { Box, Image, Text, VStack } from "@chakra-ui/react";
 
 export default function Home() {
   const images = [
