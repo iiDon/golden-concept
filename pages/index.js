@@ -46,7 +46,7 @@ export default function Home() {
 
         <Box>
           {images.map((image) => (
-            <Link href={image.link}>
+            <Link href={image.link} key={image.link}>
               <VStack
                 justifyContent="center"
                 alignItems="center"
